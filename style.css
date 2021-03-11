@@ -1,0 +1,140 @@
+.logo {
+    margin: 5px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Choices {
+    margin: 50px;
+    padding: 5px;
+    border-style: groove;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.item h5 {
+    padding-top: 5px;
+    color: darkslategray;
+    font-weight: bolder;
+}
+
+.item p {
+    padding-top: 13px;
+    color: maroon;
+    font-weight: bolder;
+}
+
+.pic {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cart-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.MyCart h2 {
+    text-align: center;
+    color: maroon;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.cartproduct {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartdetails h3 {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    color: firebrick;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.totalPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.Pricedetails {
+    font-weight: bold;
+}
+
+.remove {
+    font-weight: bold;
+}
+
+#total {
+    padding-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.bodycart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cartproduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: groove;
+    font-size: larger;
+}
+
+h3 {
+    text-align: center;
+    color: maroon;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.mystyle {
+    color: red;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
